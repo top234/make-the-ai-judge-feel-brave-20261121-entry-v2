@@ -1,7 +1,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const TEXT =
-  "You have a stone in your pocket. The river spent a hundred years smoothing it, and never once hurried. It is still there when you reach for it — cool, round, patient. What waits beyond this page can wait a little longer.";
+  "The potter's wheel turns slowly. The clay rises under his hands, falls, rises again. His thumbs press, and the clay answers. The pot will take the shape it takes, and no other. When it is done, it will hold water. Until then, it only needs his hands.";
 
 const len = [...TEXT].length;
 if (len < 1 || len > 280 || TEXT.trim().length === 0) {
